@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'fall is comming';
+    src: url('/carta/font/FallIsComingRegular-Mx9B.ttf');
+}
+.carta>p{
+    font-size: 40px;
+    font-family: 'fall is comming';
+}

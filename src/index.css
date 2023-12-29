@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'fall is comming';
+    src: url('/font/FallIsComingRegular-Mx9B.ttf');
+}
+p{
+    margin: 0;
+}
+body, html{
+    margin: 0;
+}
+body{
+    background-image: url('/images/cardboard_texture_by_fantasystock_d3j3ea5-fullview.jpg');
+    background-size:contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carta{
+    color: black;
+    width: 700px;
+    margin: 25px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow:10px 10px 50px black;
+    background-image: url('/images/557781_l.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media (max-width: 1000px) {
+    .carta{
+        width: 90%;
+    }
+    .carta>p{
+        font-size: 30px;
+    }
+}
