@@ -17,8 +17,7 @@ const routes = [
 ];
 
 const router = createBrowserRouter({
-  basename: process.env.NODE_ENV === 'production' ? '/carta' : '',
-  routes: routes, // Certifique-se de passar o array de rotas corretamente
+  routes,
 });
 
 ReactDOM.createRoot(document.getElementById('root')).render(
